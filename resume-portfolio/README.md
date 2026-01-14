@@ -29,4 +29,4 @@ resume-portfolio
 
 ## GitHub Profile
 
-You can view my GitHub profile [here](https://github.com/yourusername).
+You can view my GitHub profile [here](https://github.com/aqibmurshidi).
