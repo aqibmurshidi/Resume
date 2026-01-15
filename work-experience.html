@@ -1,44 +1,87 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Work Experience - Aqib Murshidi</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>Aqib Murshidi</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="work-experience.html">Work Experience</a>
-            <a href="education.html">Education</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-        </nav>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-cyan-500/20 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+            <h1 class="text-4xl font-bold text-white mb-2 tracking-tight">Aqib Murshidi</h1>
+            <p class="text-gray-400 text-sm mb-4">QA Intern @ IPG MediaBrand | Software Engineering Student</p>
+            <nav class="flex flex-wrap gap-2">
+                <a href="index.html" class="px-4 py-2 rounded-lg text-gray-300 hover:bg-slate-700 transition font-medium text-sm">Home</a>
+                <a href="work-experience.html" class="px-4 py-2 rounded-lg bg-cyan-500/20 text-cyan-300 hover:bg-cyan-500/40 transition font-medium text-sm">Work</a>
+                <a href="education.html" class="px-4 py-2 rounded-lg text-gray-300 hover:bg-slate-700 transition font-medium text-sm">Education</a>
+                <a href="projects.html" class="px-4 py-2 rounded-lg text-gray-300 hover:bg-slate-700 transition font-medium text-sm">Projects</a>
+                <a href="skills.html" class="px-4 py-2 rounded-lg text-gray-300 hover:bg-slate-700 transition font-medium text-sm">Skills</a>
+            </nav>
+        </div>
     </header>
-    
-    <section id="work-experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <h3>Intern Quality Assurance</h3>
-                <p><strong>IPG MediaBrand</strong></p>
-                <p>January 2026 - Present</p>
-                <p><strong>Responsibilities & Achievements:</strong></p>
-                <ul class="responsibilities">
-                    <li>Check developer ads for errors and issues, report findings to callout or development team</li>
-                    <li>Training and collaborating with developer side to understand code better and improve QA processes</li>
-                    <li>Gaining hands-on experience with GSAP (GreenSock Animation Platform) for animation quality assurance</li>
-                    <li>Understanding and testing feed and masterfeed systems for QA verification</li>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <section id="work-experience">
+            <h2 class="text-4xl font-bold text-white mb-12">Work Experience</h2>
+            
+            <div class="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border border-slate-700 rounded-xl p-8 mb-8 hover:border-cyan-500/40 transition">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-1">Intern Quality Assurance</h3>
+                        <p class="text-lg font-semibold text-gray-300">IPG MediaBrand</p>
+                    </div>
+                    <span class="inline-block px-4 py-2 bg-cyan-500/20 text-cyan-300 rounded-full text-sm font-semibold border border-cyan-500/30 mt-4 md:mt-0">January 2026 - Present</span>
+                </div>
+                
+                <h4 class="text-lg font-bold text-white mb-4">Responsibilities & Achievements:</h4>
+                <ul class="space-y-3">
+                    <li class="flex gap-3 text-gray-300">
+                        <span class="text-cyan-400 mt-1">✓</span>
+                        <span>Check developer ads for errors and issues, report findings to callout or development team</span>
+                    </li>
+                    <li class="flex gap-3 text-gray-300">
+                        <span class="text-cyan-400 mt-1">✓</span>
+                        <span>Training and collaborating with developer side to understand code better and improve QA processes</span>
+                    </li>
+                    <li class="flex gap-3 text-gray-300">
+                        <span class="text-cyan-400 mt-1">✓</span>
+                        <span>Gaining hands-on experience with GSAP (GreenSock Animation Platform) for animation quality assurance</span>
+                    </li>
+                    <li class="flex gap-3 text-gray-300">
+                        <span class="text-cyan-400 mt-1">✓</span>
+                        <span>Understanding and testing feed and masterfeed systems for QA verification</span>
+                    </li>
                 </ul>
-            </li>
-            <!-- Add more work experience as needed -->
-        </ul>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Aqib Murshidi</p>
+
+                <div class="mt-6 pt-6 border-t border-slate-600">
+                    <h4 class="text-sm font-semibold text-gray-400 mb-3">Key Skills Used:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Ad QA</span>
+                        <span class="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30">GSAP</span>
+                        <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm border border-green-500/30">Feed Testing</span>
+                        <span class="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-sm border border-orange-500/30">Automation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-700 mt-20 py-8 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 text-center text-gray-400">
+            <p>&copy; 2026 Aqib Murshidi. All rights reserved.</p>
+            <p class="mt-2 text-sm">Designed with care | Quality Assurance & Web Development</p>
+        </div>
     </footer>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
