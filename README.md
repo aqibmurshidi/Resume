@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my work as a Quality Assurance
 
 ## 🚀 Live Demo
 
-**GitHub Pages URL:** `https://aqibmurshidi.github.io/resume-portfolio/`
+**GitHub Pages URL:** `https://aqibmurshidi.github.io/Portfolio/`
 
 ## 📁 Project Structure
 
@@ -68,7 +68,7 @@ resume-portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aqibmurshidi/resume-portfolio.git
+   git clone https://github.com/aqibmurshidi/Portfolio.git
    cd resume-portfolio
    ```
 
